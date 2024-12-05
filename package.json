@@ -21,7 +21,7 @@
     "webpack-cli": "^5.1.1",    
     "webpack-dev-server": "^4.11.0",
     "babel-loader": "^8.2.5",  
-    "babel-core": "^7.0.0",    
+    "@babel/core",    
     "babel-preset-env": "^1.7.0" 
   }
 }
