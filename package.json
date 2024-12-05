@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "emailjs-com": "^3.2.0",   
-    "fetch": "^2.0.0"          
+    "emailjs-com": "^3.2.0"
   },
   "devDependencies": {
     "live-server": "^1.2.0",  
