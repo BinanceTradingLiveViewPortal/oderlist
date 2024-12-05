@@ -1,0 +1,27 @@
+{
+  "name": "email-form-app",
+  "version": "1.0.0",
+  "description": "A simple web app to collect email and password with IP info and send email via EmailJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",  // If using live-server for easy development
+    "build": "webpack",      // If you plan to bundle assets with webpack
+    "dev": "webpack serve",  // If you're using webpack-dev-server
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs-com": "^3.2.0",   // EmailJS for sending emails
+    "fetch": "^2.0.0"           // Fetch API polyfill for older browsers (if needed)
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",   // For serving static files during development
+    "webpack": "^5.74.0",       // Bundling JavaScript files if needed
+    "webpack-cli": "^5.1.1",    // CLI for running webpack commands
+    "webpack-dev-server": "^4.11.0", // For serving assets during development
+    "babel-loader": "^8.2.5",   // If you're transpiling modern JavaScript using Babel
+    "babel-core": "^7.0.0",     // Babel core dependencies
+    "babel-preset-env": "^1.7.0" // Babel preset for modern JavaScript features
+  }
+}
